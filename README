@@ -1,0 +1,24 @@
+NAME
+    Bot::Cobalt::Plugin::Calc - Simple calculator for Bot::Cobalt
+
+SYNOPSIS
+      !calc (2+2)*(2+4)
+      !calc 0xff
+      !calc 0644
+
+DESCRIPTION
+    Simple Bot::Cobalt calculator plugin using Parser::MGC.
+
+    Understands - + * / ^ operations.
+
+    Also understands hex and octal.
+
+TODO
+    A RPN-style calculator with a persistent per-user stack is planned as
+    sort of an IRC `dc' ... eventually.
+
+AUTHOR
+    Jon Portnoy <avenj@cobaltirc.org>
+
+    http://www.cobaltirc.org
+
