@@ -1,5 +1,5 @@
 package Bot::Cobalt::Plugin::Calc;
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use 5.12.1;
 use strictures 1;
